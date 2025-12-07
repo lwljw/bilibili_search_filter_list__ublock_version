@@ -3,25 +3,21 @@
 ! Last modified: {{auto-update}}
 ! ------------------------------------------------------------------
 
-bilibili.com##.bili-video-card:has(a:has-text(游戏))
-bilibili.com##.bili-video-card:has(a:has-text(三角洲))
-bilibili.com##.bili-video-card:has(a:has-text(fps))
-bilibili.com##.bili-video-card:has(a:has-text(马里奥))
-bilibili.com##.bili-video-card:has(a:has-text(听泉))
-bilibili.com##.bili-video-card:has(a:has-text(户晨风))
-bilibili.com##.bili-video-card:has(a:has-text(超级小桀的日常))
-bilibili.com##.bili-video-card:has(a:has-text(旭旭宝宝))
-bilibili.com##.bili-video-card:has(a:has-text(寅子))
-bilibili.com##.bili-video-card:has(a:has-text(大司马))
-bilibili.com##.bili-video-card:has(a:has-text(白胖))
-bilibili.com##.bili-video-card:has(a:has-text(广告))
-bilibili.com##.bili-video-card:has(a:has-text(挑战))
-bilibili.com##.bili-video-card:has(a:has-text(推广))
-bilibili.com##.bili-video-card:has(a:has-text(经典永流传))
-bilibili.com##.bili-video-card:has(a:has-text(名场面))
-bilibili.com##.bili-video-card:has(a:has-text(逆天))
-bilibili.com##.bili-video-card:has(a:has-text(盘点))
-bilibili.com##.bili-video-card:has(a:has-text(马造))
-bilibili.com##.bili-video-card:has(a:has-text(马力欧))
-bilibili.com##.bili-video-card:has(a:has-text(小米))
-bilibili.com##.bili-video-card:has(a:has-text(华为))
+! 游戏类
+bilibili.com##.bili-video-card:has(a:has-text(/游戏|实况|攻略|fps|三角洲|CF|马里奥|原神|王者荣耀|大司马|旭旭宝宝|听泉|户晨风|寅子|白胖/))
+
+
+!新闻 / 政治类
+bilibili.com##.bili-video-card:has(a:has-text(/新华社|人民日报|大象新闻|央视|CCTV|澎湃新闻|观察者网|环球时报|台海|中日|中美|国际局势|军事|卢克文|小王Albert|公知|时政/))
+
+
+!营销号
+bilibili.com##.bili-video-card:has(a:has-text(/曝光|逆天|震惊|热搜|网友热议|盘点|挑战|推广|广告|十大|名场面|经典永流传|离谱|槽点/))
+
+
+!明星娱乐类
+bilibili.com##.bili-video-card:has(a:has-text(/明星|娱乐|恋情|八卦|偶像|综艺|流量|塌房|粉丝狂喜/))
+
+
+!悬疑讲解类
+bilibili.com##.bili-video-card:has(a:has-text(/悬疑|案件|案情|谋杀|恐怖|灵异|诡异|未解之谜|离奇案件/))

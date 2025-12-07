@@ -1,0 +1,23 @@
+! Title: My Bilibili Blocklist
+! Description: Personal filter list for blocking unwanted Bilibili content
+! Last modified: {{auto-update}}
+! ------------------------------------------------------------------
+
+bilibili.com##.bili-video-card:has(a:has-text(游戏))
+bilibili.com##.bili-video-card:has(a:has-text(三角洲))
+bilibili.com##.bili-video-card:has(a:has-text(fps))
+bilibili.com##.bili-video-card:has(a:has-text(马里奥))
+bilibili.com##.bili-video-card:has(a:has-text(听泉))
+bilibili.com##.bili-video-card:has(a:has-text(户晨风))
+bilibili.com##.bili-video-card:has(a:has-text(超级小桀的日常))
+bilibili.com##.bili-video-card:has(a:has-text(旭旭宝宝))
+bilibili.com##.bili-video-card:has(a:has-text(寅子))
+bilibili.com##.bili-video-card:has(a:has-text(大司马))
+bilibili.com##.bili-video-card:has(a:has-text(白胖))
+bilibili.com##.bili-video-card:has(a:has-text(广告))
+bilibili.com##.bili-video-card:has(a:has-text(挑战))
+bilibili.com##.bili-video-card:has(a:has-text(推广))
+bilibili.com##.bili-video-card:has(a:has-text(经典永流传))
+bilibili.com##.bili-video-card:has(a:has-text(名场面))
+bilibili.com##.bili-video-card:has(a:has-text(逆天))
+bilibili.com##.bili-video-card:has(a:has-text(盘点))

@@ -1,0 +1,2 @@
+# bilibili_search_filter_list__ublock_version
+this
